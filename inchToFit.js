@@ -4,3 +4,15 @@ function inchToFit(inches){
 }
 
 console.log(inchToFit(144));
+
+
+// mile to kilomiter
+
+function mileTokillomiter(miles){
+
+    return miles * 1.60934
+}
+
+
+
+console.log(mileTokillomiter(10))
