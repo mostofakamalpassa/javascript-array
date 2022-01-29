@@ -35,3 +35,28 @@ if(number1 > number2 && number1 > number3){
 }else{
     console.log(number3 , " Is big");
 }
+
+
+
+// sum 1 ... 100 number 
+
+let sum = 0;
+
+for(let i = 1; i<= 100; i++){
+    sum = sum + i;
+}
+
+console.log(sum);
+
+
+// mutiplication 7 
+
+let index = 1;
+while(index <= 10){
+    let number7 = 7;
+
+    let result = number7 + " * "+ index +" = " + number7 * index;
+index++;
+    console.log(result);
+    
+}
