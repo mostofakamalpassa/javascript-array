@@ -16,4 +16,26 @@ function factorial(number){
 const getFirstFactorial = factorial(5);
 
 
-console.log(getFirstFactorial);
+//console.log(getFirstFactorial);
+
+
+
+// factorial  decrements 
+
+function factorialWithDecrement(number){
+
+    let i = number;
+    let factorial = 1;
+    while( i>= 1){
+        factorial *= i;
+
+        i--;
+    }
+
+    return factorial;
+
+}
+
+const getFact = factorialWithDecrement(5);
+
+console.log(getFact);
