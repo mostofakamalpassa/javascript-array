@@ -17,3 +17,5 @@ function getInterst(princeple, total, time){
 console.log(getInterst(500, 600, 1));
 console.log(getInterst(5000, 6000, 2));
 console.log(getInterst(4000, 6000, 1));
+
+
