@@ -26,3 +26,5 @@ function factorials(fact){
 }
 
 console.log(factorials(5));
+console.log(factorials(7));
+console.log(factorials(9));
